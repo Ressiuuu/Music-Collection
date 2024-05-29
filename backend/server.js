@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-const mongoURI = 'mongodb+srv://beressiagian:Samber321@sbdpraktikum.flyb2zc.mongodb.net/?retryWrites=true&w=majority&appName=SBDPraktikum';
+const mongoURI = 'mongodb://mongo:27017/';
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
